@@ -9,7 +9,7 @@ convenience.
 Installation
 -----------
 
-	go get github.com/btcsuite/goleveldb/leveldb
+	go get github.com/conseweb/goleveldb/leveldb
 
 Requirements
 -----------
@@ -105,4 +105,4 @@ Use bloom filter:
 Documentation
 -----------
 
-You can read package documentation [here](http:godoc.org/github.com/btcsuite/goleveldb).
+You can read package documentation [here](http:godoc.org/github.com/conseweb/goleveldb).

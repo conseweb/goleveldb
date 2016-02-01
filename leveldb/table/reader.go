@@ -14,15 +14,15 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/btcsuite/goleveldb/leveldb/cache"
-	"github.com/btcsuite/goleveldb/leveldb/comparer"
-	"github.com/btcsuite/goleveldb/leveldb/errors"
-	"github.com/btcsuite/goleveldb/leveldb/filter"
-	"github.com/btcsuite/goleveldb/leveldb/iterator"
-	"github.com/btcsuite/goleveldb/leveldb/opt"
-	"github.com/btcsuite/goleveldb/leveldb/storage"
-	"github.com/btcsuite/goleveldb/leveldb/util"
 	"github.com/btcsuite/snappy-go/snappy"
+	"github.com/conseweb/goleveldb/leveldb/cache"
+	"github.com/conseweb/goleveldb/leveldb/comparer"
+	"github.com/conseweb/goleveldb/leveldb/errors"
+	"github.com/conseweb/goleveldb/leveldb/filter"
+	"github.com/conseweb/goleveldb/leveldb/iterator"
+	"github.com/conseweb/goleveldb/leveldb/opt"
+	"github.com/conseweb/goleveldb/leveldb/storage"
+	"github.com/conseweb/goleveldb/leveldb/util"
 )
 
 var (

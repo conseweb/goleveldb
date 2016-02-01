@@ -13,10 +13,10 @@ import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	"github.com/btcsuite/goleveldb/leveldb/comparer"
-	"github.com/btcsuite/goleveldb/leveldb/iterator"
-	"github.com/btcsuite/goleveldb/leveldb/testutil"
-	"github.com/btcsuite/goleveldb/leveldb/util"
+	"github.com/conseweb/goleveldb/leveldb/comparer"
+	"github.com/conseweb/goleveldb/leveldb/iterator"
+	"github.com/conseweb/goleveldb/leveldb/testutil"
+	"github.com/conseweb/goleveldb/leveldb/util"
 )
 
 type blockTesting struct {
